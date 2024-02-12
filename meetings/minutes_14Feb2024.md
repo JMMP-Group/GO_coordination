@@ -15,7 +15,7 @@ Apologies: Adam Blaker.
    - Action: AA to create JMMP GitHub repository for GO coordination - done. _Closed._
 2. NOC-Southampton new member: Amber Walsh
 3. GOSI10:
-   - Updates of progress or blockers regarding JMMP GO work plan
+   - Highlight updates on progress or blockers regarding JMMP GO work plan
    - Initial conditions: Move from EN4 to WOA? Average over which time period? Update runoff inputs?
    - Atmospheric forcing: given issues with ERA5 should we use JRA (discontinued after Jan 2024) for GOSI10 to avoid hassle of not working with a standardised product?
    - Length of simulations: Should we run two cycles, e.g. run from 1958 (ICs) until 2023, then take restart from the end of first cycle and to start another run from 1958 to have a fully spun-up ocean? Tobias Schulzki's poster at DRAKKAR suggests that long runs (2 cycles, 40-50 yrs each) are needed to have a stable AMOC
