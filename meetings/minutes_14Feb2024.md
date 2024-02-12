@@ -11,11 +11,11 @@ Apologies: Adam Blaker.
 ## Agenda:
 1. Review actions/approve minutes of the previous meeting 
    - AB said that Jérôme Chanut had told him about some small modifications to the ORCA025 grid around the north fo. Action: DS to email Jérôme about this?
-   - Action: AA to circulate list of current issues a few days in advance of the 3-monthly meetings - not necessary as issues are mostly up-to-date. _Closed._
+   - Action: AA to circulate list of current issues a few days in advance of the 3-monthly meetings - not necessary as issues are mostly up-to-date, thanks to all contributors! _Closed._
    - Action: AA to create JMMP GitHub repository for GO coordination - done. _Closed._
 2. NOC-Southampton new member: Amber Walsh
 3. GOSI10:
-   - Highlights of progress or blockers regarding JMMP GO work plan
+   - Updates of progress or blockers regarding JMMP GO work plan
    - Initial conditions: Move from EN4 to WOA? Average over which time period? Update runoff inputs?
    - Atmospheric forcing: given issues with ERA5 should we use JRA (discontinued after Jan 2024) for GOSI10 to avoid hassle of not working with a standardised product?
    - Length of simulations: Should we run two cycles, e.g. run from 1958 (ICs) until 2023, then take restart from the end of first cycle and to start another run from 1958 to have a fully spun-up ocean? Tobias Schulzki's poster at DRAKKAR suggests that long runs (2 cycles, 40-50 yrs each) are needed to have a stable AMOC
@@ -26,7 +26,7 @@ Apologies: Adam Blaker.
 
 ----------
 
-## JMMP GO work plan review:
+## JMMP GO work in progress updates:
 
 1. _GOSI10p0_
 Released at NEMOv4.2.2 [needs bug fixes after restartability issues identified when switching on key_qco (a more efficient vertical coordinate algorithm that replaces VVL and significantly reduces the number of 3D arrays); applicable to both coupled and forced runs]
@@ -45,6 +45,18 @@ Released at NEMOv4.2.2 [needs bug fixes after restartability issues identified w
 7. _SE-NEMO_: 
 
 8. _Assessment tools_: 
+
+----------
+
+## Initial conditions:
+
+----------
+
+## Atmospheric forcing:
+
+----------
+
+## Length of simulations:
 
 ----------
 
