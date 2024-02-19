@@ -34,7 +34,7 @@ Apologies: Adam Blaker, Mike Bell, Chris Wilson.
 
 ## Actions from previous meetings
 
-1. **Action: DS to get updated ORCA grids from Mercator. DS can't remember where he got with this -- to check.**
+1. **Action: DS to get updated ORCA grids from Mercator. DS can't remember where he got with this - to check.**
 
 2. Other two actions _closed_ (see Agenda above).
 
@@ -83,6 +83,6 @@ It was noted that we still need coupled tests to see what happens with the coupl
 
 2. [Post-meeting] Sam Hatfield (ECMWF) will present his work on the use of NEMO with mixed precision at the next meeting: 9th May.
 
-3. [Post-meeting] DS suggested we could add NWP forcing as another ensemble member: we will need to  choose a period when this would be useful. The atmospheric forcing ensemble that AM showed uses CORE2, DFS, JRA-55 and ERA5.
+3. [Post-meeting] DS suggested we could add NWP forcing as another ensemble member. **Action: We will need to  choose a period when this would be useful. The atmospheric forcing ensemble that AM showed uses CORE2, DFS, JRA-55 and ERA5.**
 
 4. [Post-meeting] Chris Wilson informed that Sarah Wakelin has been using river inputs from dataset derived from a catchment model and JRA55 for SE-NEMO.
