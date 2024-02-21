@@ -2,7 +2,7 @@
 
 14th February 2024.
 
-Participants: Ana Aguiar (AA - chair), Alex Megann (AM), Amber Walsh (AW), Catherine Guiavarci'h (CG), Dave Storkey (DS - minutes), Diego Bruciaferri (DB), Ed Blockley (EB), Isabella Ascione (IA, Kristian Mogensen (KM)), Richard Renshaw (RR), Sarah Keeley (SK).
+Participants: Ana Aguiar (AA - chair), Alex Megann (AM), Amber Walsh (AW), Catherine Guiavarci'h (CG), Dave Storkey (DS - minutes), Diego Bruciaferri (DB), Ed Blockley (EB), Isabella Ascione (IA), Kristian Mogensen (KM), Richard Renshaw (RR), Sarah Keeley (SK).
 
 Apologies: Adam Blaker, Mike Bell, Chris Wilson.
 
@@ -73,11 +73,11 @@ It was noted that we still need coupled tests to see what happens with the coupl
                  
 3. Length of standard tests. With JRA and ERA we can run longer periods and agreed that we should but not agreed the exact period: 1958 or 1976 until 2023? Initial conditions from present-day are not valid for either of those start years but probably cause less drift than model biases. AM says that ORCA12 runs on ARCHER2 have a turnaround of 2 SYPD. 
                  
-4. Freshwater input from land. DB said that the rivers data tended to be specific to particular forcing data sets. Sarah Wakelin has looked at the impact of the JRA rivers in the Arctic. KM said that we ERA5 we should use a separate ECMWF river discharge product rather than the one packaged with ERA5: [ESSD - GloFAS-ERA5 operational global river discharge reanalysis 1979-present](https://essd.copernicus.org/articles/12/2043/2020/). The Antarctic freshwater input is a separate beast and we are currently using climatologies based on Rignot et al (year?) created by Pierre Mathiot. **Action: Someone (CG?) to Contact Sarah Wakelin to get more information.**
+4. Freshwater input from land. DB said that the rivers data tended to be specific to particular forcing data sets. Sarah Wakelin has looked at the impact of the JRA rivers in the Arctic. KM said that we ERA5 we should use a separate ECMWF river discharge product rather than the one packaged with ERA5: [ESSD - GloFAS-ERA5 operational global river discharge reanalysis 1979-present](https://essd.copernicus.org/articles/12/2043/2020/). The Antarctic freshwater input is a separate beast and we are currently using climatologies based on Rignot et al (year?) created by Pierre Mathiot. **Action: Someone (CG?) to contact Sarah Wakelin for more information.**
 
 ----------
 
-## AOB:
+## AOB/Post-meeting:
 
 1. AA will move series of future meetings from Wed to Thu 10:30am-12:00am so that NOC-S group can attend the full meeting.
 
