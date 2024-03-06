@@ -10,7 +10,7 @@ Apologies: Adam Blaker, Mike Bell, Chris Wilson.
 
 ## Agenda:
 1. Review actions/approve minutes of the previous meeting 
-   - AB said that Jérôme Chanut had told him about some small modifications to the ORCA025 grid around t north fold. Action: DS to email Jérôme about ts.
+   - AB said that Jérôme Chanut had told him about some small modifications to the ORCA02grid around the north fold. DS to email Jerome about this.
    - Action: AA to circulate list of current issues a few days in advance of the 3-monthly meetings - not necessary as issues are mostly up-to-date, thanks to all contributors! _Closed._
    - Action: AA to create JMMP GitHub repository for GO coordination - done. _Closed._
 2. NOC-Southampton new member: Amber Walsh
@@ -34,7 +34,7 @@ Apologies: Adam Blaker, Mike Bell, Chris Wilson.
 
 ## Actions from previous meetings
 
-1. **Action: DS to get updated ORCA grids from Mercator. DS can't remember where he got with this - to check.**
+1. **Action 1.1: DS to get updated ORCA grids from Mercator. DS can't remember where he got with this - to check.**
 
 2. Other two actions _closed_ (see Agenda above).
 
@@ -52,7 +52,7 @@ Apologies: Adam Blaker, Mike Bell, Chris Wilson.
    - AM has an ensemble of coupled GC5 N216-ORCA025 runs for which he is generating mixing metrics. So far the sensitivity results look consistent with his forced tests. 
 
 4. _GC5-Clim_:
-   - Alejandro Bodas-Salcedo has asked for help in assessing the ocean in his tuning ensemble for GC5-Clim (and also potentially suggestions for ocean parameters to perturb - so far only perturbed atmosphere parameters). DS and CG will support this work. **Action: AA will pass AM contact to Alejandro.** 
+   - Alejandro Bodas-Salcedo has asked for help in assessing the ocean in his tuning ensemble for GC5-Clim (and also potentially suggestions for ocean parameters to perturb - so far only perturbed atmosphere parameters). DS and CG will support this work. **Action 2.1**
 
 5. _Diagnostic tools_: 
    - RR and Matt Menary are interviewing this week for an industrial placement student to work on diagnostic tools including ESMValTool starting in the summer.
@@ -63,17 +63,17 @@ Apologies: Adam Blaker, Mike Bell, Chris Wilson.
 
 ## Discussion of new protocol for standard forced experiments:
 
-1. _Initial conditions_: Consensus is that we should move to a version of WOA in line with the OMIP protocol. Adam (email communication) favours the WOA2023 "Climate Normal" dataset. **Action: DB will check at the next Clivar Ocean Model Development Panel meeting what period will be adopted.** DS pointed out that we should use the same climatology to assess the model that we use to initialise the model. RR made the alternative suggestion of initialising from a reanalysis but DB/CG pointed out that these often have the same biases as the model in the nordic overflows region.
+1. _Initial conditions_: Consensus is that we should move to a version of WOA in line with the OMIP protocol. Adam (email communication) favours the WOA2023 "Climate Normal" dataset. DS pointed out that we should use the same climatology to assess the model that we use to initialise the model. **Action 2.2** RR made the alternative suggestion of initialising from a reanalysis but DB/CG pointed out that these often have the same biases as the model in the nordic overflows region.
 
 2. _Choice of forcing dataset_: General agreement that we should stick with JRA55-do for now until the corrected ERA5 (ERA5-do) product is available. (ERA5 can still be used for OSMOSIS tests. AM pointed out that the GOSI9 drifts with JRA and ERA5 are larger than the drifts with CORE2, so we may need to retune the model. DS said that CORE2 has been detrended to remove the climate signal (to do the repeat 50-year protocol) and we don't think the other forcing data has been detrended so we need to bear this in mind.
 
 There was some discussion of whether we should have an ensemble of tests based on different forcing data (and possibly different choices of bulk formulae). Agreed that this is useful to provide information on uncertainty but impractical to do it for every sensitivity test. One option would be to use the ensemble that AM has already run to provide estimates of uncertainty in the model fields based on the uncertainty in the forcing. We could produce a new ensemble with the final GOSI10, in order to inform error bars/spread due to differences in forcing. DB showed the impact of model numerics choices on the overturning at OSNAP East to show how sensitive the results can be; upstream of OSNAP, overflows biases are much smaller.
                  
-It was noted that we still need coupled tests to see what happens with the coupled feedbacks. **Action: We should work with Tim Graham's team to try to make these happen.**
-                 
+It was noted that we still need coupled tests to see what happens with the coupled feedbacks. **Action 2.3** 
+                
 3. _Length of standard tests._ With JRA and ERA we can run longer periods and agreed that we should but not agreed the exact period: 1958 or 1976 until 2023? Initial conditions from present-day are not valid for either of those start years but probably cause less drift than model biases. AM says that ORCA12 runs on ARCHER2 have a turnaround of 2 SYPD. 
                  
-4. _Freshwater input from land._ DB said that the rivers data tended to be specific to particular forcing data sets. Sarah Wakelin has looked at the impact of the JRA rivers in the Arctic. KM said that we ERA5 we should use a separate ECMWF river discharge product rather than the one packaged with ERA5: [ESSD - GloFAS-ERA5 operational global river discharge reanalysis 1979-present](https://essd.copernicus.org/articles/12/2043/2020/). The Antarctic freshwater input is a separate beast and we are currently using climatologies based on Rignot et al (year?) created by Pierre Mathiot. **Action: Someone (CG?) to contact Sarah Wakelin for more information.**
+4. _Freshwater input from land._ DB said that the rivers data tended to be specific to particular forcing data sets. Sarah Wakelin has looked at the impact of the JRA rivers in the Arctic. KM said that we ERA5 we should use a separate ECMWF river discharge product rather than the one packaged with ERA5: [ESSD - GloFAS-ERA5 operational global river discharge reanalysis 1979-present](https://essd.copernicus.org/articles/12/2043/2020/). The Antarctic freshwater input is a separate beast and we are currently using climatologies based on Rignot et al (year?) created by Pierre Mathiot. **Action 2.4**
 
 ----------
 
@@ -83,6 +83,17 @@ It was noted that we still need coupled tests to see what happens with the coupl
 
 2. [Post-meeting] Sam Hatfield (ECMWF) will present his work on the use of NEMO with mixed precision at the next meeting: 9th May.
 
-3. [Post-meeting] DS suggested we could add NWP forcing as another ensemble member. **Action: We will need to  choose a period when this would be useful. The atmospheric forcing ensemble that AM showed uses CORE2, DFS, JRA-55 and ERA5.**
+3. [Post-meeting] DS suggested we could add NWP forcing as another ensemble member. **Action 2.5** The atmospheric forcing ensemble that AM showed uses CORE2, DFS, JRA-55 and ERA5.
 
 4. [Post-meeting] Chris Wilson informed that Sarah Wakelin has been using river inputs from dataset derived from a catchment model and JRA55 for SE-NEMO.
+
+----------
+
+## Actions
+
+   * 1.1 DS to contact Mercator to get updated ORCA grids: small modifications to the ORCA025 grid around the north fold?
+   * 2.1 AA to pass AM contact to Alejandro re GC5 tuning.
+   * 2.2 DB to ask/check at the next Clivar Ocean Model Development Panel meeting what version and period of WOA will be adopted to generate ICs/climatology for OMIP runs. 
+   * 2.3 AA/CG/DS We should work with Tim Graham's team to try to make sure we test feedbacks in coupled mode.
+   * 2.4 CG to contact Sarah Wakelin for more information on JRA rivers runoff.
+   * 2.5 AA/CG to find out which period is suitable to run with NWP forcing as another atmospheric forcing GOSI10 ensemble member.
