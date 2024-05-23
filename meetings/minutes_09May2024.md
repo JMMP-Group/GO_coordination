@@ -46,29 +46,28 @@ precision (wp=sp) to improve NEMO performance:
 ## Progress with GOSI10 (and AGRIF)
 
 1. _Prototypes_
-CG is running various tests for the next development releases which will be released shortly:
+- CG is running various tests for the next development releases which will be released shortly:
    1. GOSI10p0 ORCA12 test - at NEMO 4.0.4, close to GOSI9 settings. 
    2. GOSI10p1 will include the new bathymetries.
    3. GOSI10p1.1 switches from CORE2 to JRA-55 forcing. 
    4. GOSI10p2 includes [small science changes](https://github.com/JMMP-Group/GO_coordination/issues/18) prior to the move to NEMO 5.
    5. The next step will be to test NEMO 5&beta;.
-</br>
-AM asked which versions will be available on Monsoon and CG said that she will create a Monsoon version of p1.1.
+- AM asked which versions will be available on Monsoon and CG said that she will create a Monsoon version of p1.1.
 
 
 2. _NEMOv5_
-DB and Daley have identified potential issues and opportunities from moving to NEMO 5 and documented them [here](https://github.com/JMMP-Group/GO_coordination/issues/2).
+- DB and Daley have identified potential issues and opportunities from moving to NEMO 5 and documented them [here](https://github.com/JMMP-Group/GO_coordination/issues/2).
    1. AB said that at NEMO 5 there are two versions of the adaptive vertical advection scheme. It automatically chooses the appropriate one depending on the choice of momentum advection scheme.
    2. Data assimilation not working in NEMO 5 yet.  
 
-3. _AGRIF_ 
-DB has created a 1/20&deg; AGRIF zoom in the Labrador Sea in ORCA025 and finds a big improvement
+4. _AGRIF_ 
+- DB has created a 1/20&deg; AGRIF zoom in the Labrador Sea in ORCA025 and finds a big improvement
 in the Labrador Sea water masses and mixed layer depths due to better representation of the west Greenland
 boundary current and eddy system. Promising as a way of improving the North Atlantic and AMOC representation
 in ORCA025 at relatively cheap cost. 
 
-4. _Timetable_
-AA will create a timetable for the various development releases. 
+5. _Timetable_
+- AA will create a timetable for the various development releases. 
 
 ----------
 
