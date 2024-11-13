@@ -74,6 +74,10 @@ in ORCA025 at relatively cheap cost.
 ## Actions
 
  * 2.4: AA/CG: Create a scoping action to decide what to do about river input.
+<<<<<<< HEAD
  * 2.5: AA/CG to find out which period is suitable to run with NWP forcing as another atmospheric forcing GOSI10 ensemble member.
+=======
+ * 2.5: AA/CG to find out which period is suitable to run with NWP forcing as another atmospheric forcing GOSI10 ensemble member. Ongoing.
+>>>>>>> cfe8768 (Add minutes from Sep)
  * 3.1: AA to create a timetable for the various development releases.
 
