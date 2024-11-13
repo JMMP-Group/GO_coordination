@@ -23,7 +23,7 @@ Apologies: Ed Blockley, Mike Bell, Chris Wilson, Richard Renshaw.
 
 ## Review actions from previous meetings
 
-1. **Action 4.1: CG to contact Rachel Killick (Cc AB) regarding EN4.
+1. **Action 4.1: CG to contact Rachel Killick (Cc AB) regarding EN4.**
 
 ----------
 
