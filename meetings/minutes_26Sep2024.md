@@ -36,16 +36,23 @@ Apologies: Ed Blockley, Mike Bell, Chris Wilson.
    1. Reduced ACC transport due to removal of partial slip in SO
    2. Increased salinity and deepening of MLD in the Labrador Sea
    3. SST, SSS change in the Arctic due to upgrade of the internal wave mixing scheme, little change in sea ice. SK suggested looking at seasonal sea ice maps.
-   4. Current feedback scheme switched on but not suitable because we don't have ocean surface currents in JRA (some products have these as mesured by scatterometer); JRA has absolute forcing, OMDP looking into this and planning to taking a fraction (70%) of JRA winds to account for the current feedback effect; this would need coding. Does ERA5 have "surface currents as seen by atmosphere"? KM said it's not clear because of bias correction. [AB] said that Sejoro et al 2018 has climatological currents that we could use and we should ask other centres. KM alerted for differences between scatterometer measurements and ocean currents.  **Further discussion needed.** 
+   4. Current feedback scheme switched on but not suitable because we don't have ocean surface currents in JRA (some products have these as mesured by scatterometer); JRA has absolute forcing, OMDP looking into this and planning to taking a fraction (70%) of JRA winds to account for the current feedback effect; this would need coding. Does ERA5 have "surface currents as seen by atmosphere"? KM said it's not clear because of bias correction. [AB] said that Sejuno et al 2018 has climatological currents that we could use and we should ask other centres. KM alerted for differences between scatterometer measurements and ocean currents.  **Further discussion needed.** 
 </br>
 
-2. _Porting to NEMO5RC: IA ported GOSI10p2 to NEMO5RC but experiment crashed after 25 yrs with sea ice problems. Daley looked into this, first running similar version but stripped off GOSI10-specific changes and got the same error. Further investigation linked the problem to FMA (Fused multiply-add operations) with their order depending on compilar flag options and therefore this issue being specific to the Cray compiler used in the Met Office. FMA were introduced to reduce the use of lbc_links. Enforcing the use of lbc_links avoids the problem and also fixes restartability issues.
+2. _Porting to NEMO5RC_: IA ported GOSI10p2 to NEMO5RC but experiment crashed after 25 yrs with sea ice problems. Daley looked into this, first running similar version but stripped off GOSI10-specific changes and got the same error. Further investigation linked the problem to FMA (Fused multiply-add operations), with their order depending on compiler flag options, and concluded that this issue is specific to the Cray compiler used in the Met Office; not expected to reoccur in the new HPC. For detailed explanation of the issue and fix see [issue#22](https://github.com/JMMP-Group/GO_coordination/issues/22). This has been communicated to the NEMO systems team.
+
+3. _Mediterranean Overflow_: DB presented results from two experiments using a 1/20 deg AGRIF zoom in the Gulf of Cadiz including the Strait of Gibraltar. 
+   1. One experiment using zps in both the child and parent (1/4 deg) domains.
+   2. Another experiment changing to MEs in the child domain.
+The depth of the Mediterranean water, the density structure of the water column, the salinity and EKE at 1000 m, are closer to observations (distribution patterns and values) in the experiment with MEs in the zoom. Improvements feedback to the parent grid work well, resulting in an enhanced Azores current and overall reduction of the North Atlantic salinity bias at 550 and 2000 m depth. EKE fields of the parent show a better westward propagation of meddies when MEs are used in the child domain. Computational efficiency is good.
+
+4. _GC5 ensemble_: AM presented results for coupled experiments N96-ORCA025, with z-tilde and TRIADS (Griffies) for isoneutral diffusion and is writing a paper (with Dan Copsey) on this. New diagnostics of integrated diapycnal upwelling in the Indo-Pacific show that, with tides, there's much more mixing but slightly less with z-tilde (less spurious mixing); Surface air temperature, SST: using 2nd order tracer advection leads to a warming of surface T, with more mixing; with cooling there's less mixing (!?), trying to understand this by looking at sea ice, strength of the thermocline and heat transport. AMOC differs when using TRIADS (smoother streamfunction and more significant results): increased mixing weakens the ACC (!?), with noticeable impacts on sea ice. DB questioned this as more mixing should lead to a stronger AMOC: depends on where this happens, mixing at depth and high latitudes, plus Indo-Pacific upwelling: "missing mixing" which is needed to close the AMOC, see Ferrari and Wunsch supplement.
 
 ----------
 
 ## AOB
 
-1. AB presented results from AW showing that EN4 is better than WOA for initial conditions. To follow the OMIP protocol, we'll carry on using WOA for initial conditions but CG will inform Rachel Killick and copy AB about the improvements in EN4.
+1. AB presented results from AW showing that EN4 is better than WOA for initial conditions. To follow the OMIP protocol, we'll carry on using WOA for initial conditions but CG will inform Rachel Killick (Cc AB) about EN4 issues at the poles.
 
 ----------
 
