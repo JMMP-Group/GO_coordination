@@ -33,7 +33,7 @@ Apologies: Alex Megann, Amber Walsh, Adam Blaker, Chris Wilson, Richard Renshaw,
   1. AMOC weakens and there's freshening and cooling of the North Atlantic
   2. Sea ice extent doesn't change much but sea ice seems thicker. EF and DSc suggested changing the albedo and snow conductivity which previously have been tuned to increase sea ice thickness and may no longer need to be as high. DSc suggested that SIT changes in Mar and Sep seem to be thermodynamically driven, originating in the sea ice model, not the ocean. There's less heat loss in te SPG and Indian Ocean (net surface heat flux maps). NEMO5RC should still be using momentum advection vector invariant form but the stirring/strength of the currents appears to have changed. IA will arrange a meeting with sea ice people to decide what parameters and values to test in (new) sensitivity experiments. 
 
-3. _Results from the run with TRIADS and new nn\_htau_: see e-mail that DB sent ahead of the meeting with slides. DB will run a new experiment with nn_htau profile that's closer to estimates based on observations. There was some discussion about replacing TKE with GLS (Generic Length Scale) mixing as for SE-NEMO.
+3. _Results from the run with TRIADS and new nn\_htau_: DB will run a new experiment with nn_htau profile that's closer to estimates based on observations and update [issue#14](https://github.com/JMMP-Group/GO_coordination/issues/14). There was some discussion about replacing TKE with GLS (Generic Length Scale) mixing as for SE-NEMO.
 
 4. _Rota for minuting_, to follow participants' surname in alphabetical order: IA, AB, EB, DB, DC, EF, CG, AM, DSc, DS, AW. Ana will name next person on the rota along with agenda for each meeting and rearrange in case that person cannot be present. 
 
