@@ -52,7 +52,7 @@ The depth of the Mediterranean water, the density structure of the water column,
 
 ## AOB
 
-1. AB presented results from AW showing that WOA is better than EN4 for initial conditions. [AB: I don't remember doing this. AW has been experimenting with different WOA ICs and SSS restoration. A general conclusion is that it is better to use ICs closer to the starting date of your simulation.] To follow the OMIP protocol, we'll carry on using WOA for initial conditions but CG will inform Rachel Killick (Cc AB) about EN4 issues at the poles. [AB: Rachel is now aware of the issues with EN4. Following the AMOC meeting at the Met Office we exchanged some emails and I shared the slides showing the IC issues. The "star-shaped" feature in the Arctic is a regridding issue and I don't think that will go away any time soon. An updated EN4 is due imminently.]
+1. AW has been experimenting with different WOA ICs and SSS restoration. A general conclusion is that it is better to use ICs closer to the starting date of your simulation. To follow the OMIP protocol, we'll carry on using WOA for initial conditions but CG will inform Rachel Killick (Cc AB) about EN4 issues at the poles [WOA is better than EN4 for initial conditions]. [AB: Rachel is now aware of the issues with EN4. Following the AMOC meeting at the Met Office we exchanged some emails and I shared the slides showing the IC issues. The "star-shaped" feature in the Arctic is a regridding issue and I don't think that will go away any time soon. An updated EN4 is due imminently.]
 
 ----------
 
