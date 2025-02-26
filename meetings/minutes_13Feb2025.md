@@ -17,7 +17,7 @@ Apologies: Chris Wilson, Sarah Keeley, Ed Blockley.
 
 ## Review actions from previous meetings
 
-1. **Action 4.1: CG to contact Rachel Killick (Cc AB) regarding EN4 issues at the poles.** _Closed_
+**Action 4.1: CG to contact Rachel Killick (Cc AB) regarding EN4 issues at the poles.** _Closed_
 
 AB discussed this with Rachel Killick after the NA/AMOC meeting at the end of Sep 2024. Rachel is is aware of the issues with EN4, but there is no plan to improve these. The issues might still be present in the new version which is about to be released. (CG) This is not a problem for GOSI10 since we adopted WOA for ICs and validation but we (JMMP-GO) should keep track of EN4 developments. (AM) Issues in the Arctic are unclear and there are issues at the surface near Greenland.  
 
@@ -49,7 +49,7 @@ AB discussed this with Rachel Killick after the NA/AMOC meeting at the end of Se
  
 * (DC) _NEMO on GPUs_ NGARCH project benchmark for Gen1 supercomputer. NEMO 4.0.4 ORCA1 runs faster on GPUs. XIOS cannot run on GPUs, causing data transfer issues.
  
-*(AA) _NEMO meeting in June_ Invite to join the hackathon in June.
+* (AA) _NEMO meeting in June_ Invite to join the hackathon in June.
 
 ----------
 
