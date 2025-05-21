@@ -1,10 +1,13 @@
 # JMMP GO model development meeting minutes
 
+*The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, EB, DB, DC, EF, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
+
 *Thursday 15th May 2025*
 
 *Participants:* Ana Aguiar (AA - chair), Isabella Ascione (IA - minutes), Mike Bell (MB), Adam Blaker (AB - minutes), Daley Calvert (DC), Emma Fiedler (EF), Catherine Guiavarc'h (CG), Alex Megann (AM), Kristian Mogensen (KM), Richard Renshaw (RR), David Schroeder (DSc), Dave Storkey (DS), Oliver Tooth (OT), Amber Walsh (AW), Sarah Keeley (SK), Charles Pelletier (CP)
 
 *Apologies:* Diego Bruciaferri (DB)
+
 
 ----------
 
@@ -105,7 +108,7 @@ Users will need to transfer across their .moose directory to continue to be able
 
 ----------
 
-**(AA)** Next meeting is June 12th. Catherine is presenting an update on GOSI10 to the Momentum workshop, and someone from UKESM will present the hybrid resolution: physics at ¼ degree, BGC at ¾ degree.  
+**(AA)** Next monthly developers meeting is June 12th and will be recorded next time because we have a guest: Stephen Pring from UKESM will present plans for the hybrid resolution, physics at ¼ degree, BGC at ¾ degree. Catherine is presenting an update on GOSI10 to the Momentum workshop on June 11th.
 
 ----------
 
@@ -117,6 +120,6 @@ Users will need to transfer across their .moose directory to continue to be able
 
  •	**(All)** Be proactive about transferring workflows to Monsoon3.
 
- •	**(AA)** Send out agenda ~1 week ahead of the next meeting (June 12th) and ask ?? to minute the meeting.
+ •	**(AA)** Send out agenda ~1 week ahead of the next quarterly meeting (Aug 14th, pending quorum) and ask EB to minute the meeting.
 
 
