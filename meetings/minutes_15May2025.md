@@ -1,13 +1,12 @@
 # JMMP GO model development meeting minutes
 
-*The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, EB, DB, DC, EF, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
-
 *Thursday 15th May 2025*
 
 *Participants:* Ana Aguiar (AA - chair), Isabella Ascione (IA - minutes), Mike Bell (MB), Adam Blaker (AB - minutes), Daley Calvert (DC), Emma Fiedler (EF), Catherine Guiavarc'h (CG), Alex Megann (AM), Kristian Mogensen (KM), Richard Renshaw (RR), David Schroeder (DSc), Dave Storkey (DS), Oliver Tooth (OT), Amber Walsh (AW), Sarah Keeley (SK), Charles Pelletier (CP)
 
 *Apologies:* Diego Bruciaferri (DB)
 
+*The rota for minuting follows JMMP people surname in alphabetical order: IA, **AB**, EB, DB, DC, EF, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
 
 ----------
 
