@@ -2,9 +2,9 @@
 
 *Thursday 18th September 2025*
 
-*Participants:* 
+*Participants:* Ana Aguiar (AA - chair), Mike Bell (MB), Adam Blaker (AB), Daley Calvert (DC - minutes), Emma Fiedler (EF), Catherine Guiavarc'h (CG), Sarah Keeley (SK), Kristian Mogensen (KM), Charles Pelletier (CP), Richard Renshaw (RR), David Schroeder (DSc), Oliver Tooth (OT), Amber Walsh (AW)
 
-*Apologies:* 
+*Apologies:* Isabella Ascione (IA), Diego Bruciaferri (DB), Alex Megann (AM), Dave Storkey (DS)
 
 *The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, EB, DB, DC, **EF**, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
 
@@ -16,7 +16,8 @@
 2. GOSI workflows - Monsoon3
 3. Update on nemo_cookbook and long-term integration plan with `MARINE_VAL`
 4. Licensing of JMMP-generated software/public repositories
-5. AOB / DONM
+5. JRA55 river runoff results (AW)
+6. AOB / DONM
 
 ## Actions from last meeting:
 
