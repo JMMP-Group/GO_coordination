@@ -6,7 +6,7 @@
 
 *Apologies:* Isabella Ascione (IA), Diego Bruciaferri (DB), Alex Megann (AM), Dave Storkey (DS)
 
-*The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, EB, DB, DC, **EF**, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
+*The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, **DC**, EB, DB, EF, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
 
 ----------
 
