@@ -72,7 +72,7 @@ DC has ported the GOSI10.beta.4 eORCA025 suite ([u-dq383](https://code.metoffice
   
 AB asked about the changes required to port the suite (he needs to port one of Diego's NEMO 4.2 suites).
 
-  * The changes required for this suite are shown <ins>here (**Link to be added when changes have been committed**)</ins>.
+  * The changes required for this suite are shown [here](https://code.metoffice.gov.uk/trac/roses-u/changeset/331415/d/s/5/3/5/trunk).
   * The main challenge has been getting the required input files approved and onto Monsoon
 
 <br>
