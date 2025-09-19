@@ -12,10 +12,10 @@
 
 ## Agenda:
 
-1. Update on latest experiments and results with NEMOv5 RK3 60 min vs MLF 30 min (CG)
-2. GOSI workflows - Monsoon3 (DC)
-3. Update on nemo_cookbook and long-term integration plan with `MARINE_VAL` (OT)
-4. Licensing of JMMP-generated software/public repositories (AA)
+1. Licensing of JMMP-generated software/public repositories (AA)
+2. Update on latest experiments and results with NEMOv5 RK3 60 min vs MLF 30 min (CG)
+3. GOSI workflows - Monsoon3 (DC)
+4. Update on nemo_cookbook and long-term integration plan with `MARINE_VAL` (OT)
 5. JRA55 river runoff results (AW)
 
 ## Actions from last meeting:
@@ -28,6 +28,27 @@
 ----------
 
 ## Minutes:
+
+#### Licensing of JMMP-generated software/public repositories (AA)
+
+<ul>
+
+AA raised the issue of assigning appropriate licenses and copyright notices in publicly-distributed work developed under the JMMP.
+
+  * The Met Office is taking an increasingly strict approach to this- anything developed jointly under the JMMP must be licensed before being made public
+  * AA cited issues with `MARINE_VAL`, which uses the GPL3 license
+    * This is less flexible than e.g. CeCILL, BSD3, Apache or MIT licenses
+    * If code from a GPL3-licensed repository is included in a different code, the entirety of this other code must also use the GPL3 license
+  * Someone with the appropriate knowledge or legal expertise would potentially need to review work for us
+  * AB noted that NOC is also having to consider this for software they produce
+
+<br>
+
+AB asked whether everything produced under JMMP should have the CeCILL license.
+
+  * AA was not sure- e.g. for assessment tools, it depends on the packages they use; we would have to ask Met Office Science IT/legal team.
+
+</ul>
 
 #### Update on latest experiments and results with NEMOv5 RK3 60 min vs MLF 30 min (CG)
 
@@ -42,25 +63,20 @@ CG [presented results](https://github.com/JMMP-Group/GO_coordination/issues/22#i
 <br>
 
 AA later presented these results (and those from the `nn_fsbc` experiments) to the NEMO Systems Team. The main outcomes from this were:
-
+  * All agreed that we need to understand the reason for the differences and that the NEMO ST should follow-up on this; discussion TBC in the next meetings - see initial work plan below (Actions)
   * Andrew Coward (NOC) suggested running with a 45m timestep to see if the magnitude of the differences are proportional to the timestep size
-    * <ins>Action: DC to run an eORCA025 RK3 experiment with a 45m timestep</ins>
   * Sibylle Techene (CNRS) mentioned that it should be possible to run eORCA1 with a 2h timestep (90m at least)
-    * <ins>Action: DC to run an eORCA1 RK3 experiment with a 2hr timestep</ins>
   * Jerome Chanut (Mercator) mentioned that the TKE scheme itself has a timestep-dependence (in the dissipation term) and that we should try running with a non-prognostic vertical mixing scheme e.g. Richardson number scheme or constant diffusivity.
-    * <ins>Action: DC to run eORCA025 and eORCA1 RK3 experiments with the Richardson number vertical mixing scheme</ins>
   * Sebastien Masson (CNRS) asked for the namelists and/or `ocean.output` files for CG's experiments
-    * <ins>Action: DC to provide these</ins>
 
 <br>
 
 How long should we continue to try and understand this? What should we try next? 
 
   * AB suggested running with a 15m timestep
-    * <ins>Action: DC to run an eORCA025 experiments with a 15m timestep</ins>
   * MB thinks the advection scheme is now the most likely culprit
     * DC suggested that the trends diagnostics may be useful, and that it might be worth trying a simpler tracer advection scheme 
-    * <ins>Action: DC to run an eORCA025-RK3 experiment with 4th-order centered tracer advection instead of 4th order FCT and with the trends diagnostics activated</ins>
+    * <ins>We should run an eORCA025-RK3 experiment with 4th-order centered tracer advection instead of 4th order FCT and with the trends diagnostics activated. See Actions.</ins>
 
 </ul>
     
@@ -79,7 +95,7 @@ AB asked about the changes required to port the suite (he needs to port one of D
 
 CG asked whether there was a formal procedure in place for getting files approved and onto Monsoon.
 
-  * Not yet to our knowledge- it's still rather ad-hoc
+  * Not yet to our knowledge- it's still rather ad-hoc.  See Actions.
 
 <br>
 
@@ -102,27 +118,6 @@ OT introduced the [NEMODataTree class](https://noc-msm.github.io/nemo_cookbook/n
 <br>
 
 It was noted that members of the NEMO Systems Team have expressed interest in testing this.
-
-</ul>
-
-#### Licensing of JMMP-generated software/public repositories (AA)
-
-<ul>
-
-AA raised the issue of assigning appropriate licenses and copyright notices in publicly-distributed work developed under the JMMP.
-
-  * The Met Office is taking an increasingly strict approach to this- anything developed jointly under the JMMP must be licensed before being made public
-  * AA cited issues with `MARINE_VAL`, which uses the GPL3 license
-    * This is less flexible than e.g. CeCILL, BSD3, Apache or MIT licenses
-    * If code from a GPL3-licensed repository is included in a different code, the entirety of this other code must also use the GPL3 license
-  * Someone with the appropriate knowledge or legal expertise would potentially need to review work for us
-  * AB noted that NOC is also having to consider this for software they produce
-
-<br>
-
-AB asked whether everything produced under JMMP should have the CeCILL license.
-
-  * AA was not sure- e.g. for assessment tools, it depends on the packages they use
 
 </ul>
 
@@ -153,8 +148,13 @@ AB noted that in climatological runoff datasets there is usually some effort to 
 ----------
 
 ## Actions:
-
-  * DC to run further experiments looking into the timestep dependence of NEMO 5
+  * Carried forward from previous meeting:
+    * (AB) Check and send any details on strong -ve temperatures at ice shelf to SK and CP.
+    * (All) Be proactive about transferring workflows to Monsoon3.
+  * (AA) Ask Met Office Science IT
+    * Replace current ad hoc method with a formal procedure to review ancillary files licenses and get these onto Monson
+    * For development configurations, where the ancil files are not finalised, can we agree on terms to share these files (with NOC) without approval, or using a generic licence/agreement?
+  * Met Office team to run further experiments looking into the timestep dependence of NEMO 5
     * eORCA025 + RK3
       * 15m timestep
       * 45m timestep
