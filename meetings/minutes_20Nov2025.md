@@ -25,19 +25,22 @@ Mike Bell (MB),  Diego Bruciaferri (DB),  Richard Renshaw (RR), David Schroeder 
 ## Actions from last meeting:
 
 - [x] (AB) Check and send any details on strong -ve temperatures at ice shelf to SK and CP.
-- [ ] (All) Be proactive about transferring workflows to Monsoon3. -- [Mostly done, IA is finishing review of anc for GOSI9, suite requires install app update. Daley involved too]
-- [x] (AA) Ask Met Office Science IT
-      - [ ] Replace current ad hoc method with a formal procedure to review ancillary files licenses and get these onto Monson --[Ben Fitzpatrick working on formal agreement.]
-      - [ ] For development configurations, where the ancil files are not finalised, can we agree on terms to share these files (with NOC) without approval, or using a generic licence/agreement? -- [Ben Fitzpatrick advised to license and review the ancil files upfront, before copying these to Monsoon; no need to review these once the ancil files are finalised, unless there are significant changes to content that used new/distinct data sources that should trigger an update of either the attribution or licence file.]
--[x] (Met Office team) To run further experiments looking into the timestep dependence of NEMO 5
+- [ ] (All) Be proactive about transferring workflows to Monsoon3.
+    * Mostly done, IA is finishing review of ancils for GOSI9, suite requires install app update. Daley involved too
+- [x] (AA) Ask Met Office Science IT:
+    - [x] Replace current ad hoc method with a formal procedure to review ancillary files licenses and get these onto Monsoon
+        * Ben Fitzpatrick working on formal agreement.
+    - [x] For development configurations, where the ancil files are not finalised, can we agree on terms to share these files (with NOC) without approval, or using a generic licence/agreement?
+        * Ben Fitzpatrick advised to license and review the ancil files upfront, before copying these to Monsoon; no need to review these once the ancil files are finalised, unless there are significant changes to content that used new/distinct data sources that should trigger an update of either the attribution or licence file.
+- [x] (Met Office team) To run further experiments looking into the timestep dependence of NEMO 5
   * eORCA025 + RK3
-      - [ ] 15m timestep
-      - [ ] 45m timestep
-      - [ ] Richardson number vertical mixing scheme
-      - [ ] Centered tracer advection scheme
+      - [x] 15m timestep
+      - [x] 45m timestep
+      - [x] Richardson number vertical mixing scheme
+      - [x] ~~Centered~~ MUSCL tracer advection scheme
   * eORCA1 + RK3
-      - [ ] 2hr timestep
-      - [ ] Richardson number vertical mixing scheme
+      - [x] 2hr timestep
+      - [x] Richardson number vertical mixing scheme
 - [x] (DC) to provide Sebastien Masson with the namelists and `ocean.output` files for CG's experiments.
 
 - [x] (AA) Send out agenda ~1 week ahead of the next quarterly meeting (20th November) and ask EB to minute the meeting.
@@ -59,12 +62,14 @@ Response to increased time step
 * Increasing the time step from 30 to 60 minutes in ORCA025 using RK3 causes pronounced subsurface warming in the tropics, especially in the Equatorial Pacific. 
 * RK3 allows doubling of the time step without crashing, but the temperature departure wrt standard time step varies by resolution: significant in ORCA025; minimal in ORCA1 and ORCA12.
 * ORCA025 seems to be a singular case in that doubling the time step pushes the stability very close to its threshold without crashing. Attempts to further increase the time step led to instability and crashes for ORCA1 and ORCA12. ORCA025 can run with 45 min time step and no temperature anomalies but this time step cannot be used in ocean-atmosphere coupled systems.
+<br>
 
-Advection and Momentum Schemes (all these experiments use a GOSI10-like NEMO 5.0 configuration and are documented on [issue#34](https://github.com/JMMP-Group/GO_coordination/issues/34)
+Advection and Momentum Schemes (all these experiments use a GOSI10-like NEMO 5.0 configuration and are documented on [issue #34](https://github.com/JMMP-Group/GO_coordination/issues/34))
 
 * Changing the tracer advection scheme (from 4th order FCT to 2nd order) did not resolve the warming issue.
 * Switching to the MUSCL tracer advection scheme increased diffusion and worsened biases.
 * Changing the momentum advection scheme from vector form to UP3 had little impact on temperature, but UP3 introduces ?explicit diffusion? (has added bi-harmonic viscosity, capping velocities and truncating numerical errors). The group discussed whether UP3 should be adopted more widely, pending further validation and feedback from the NEMO systems team. 
+<br>
 
 [Dave commented that this has been pinned down to tracer advection - but that's not what the summary implies. Reword if necessary!]
 
@@ -114,7 +119,7 @@ AM summarized his recent paper submission to Journal of Climate, which quantifie
 ## Actions:
 
   * Carried forward from previous meeting:
-    * (All) Be proactive about transferring workflows to Monsoon3. - Only GOSI9 workflow pending ancil files review which IA has passed to BEn Fitzpatrick for review.
+    * (All) Be proactive about transferring workflows to Monsoon3. - Only GOSI9 workflow pending ancil files review which IA has passed to Ben Fitzpatrick for review.
 
   * (AM) Share numerical mixing paper draft.
   * (AA) Organise meeting to discuss ORCA1 GOSI10 release.
