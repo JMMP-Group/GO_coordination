@@ -68,10 +68,8 @@ Advection and Momentum Schemes (all these experiments use a GOSI10-like NEMO 5.0
 
 * Changing the tracer advection scheme (from 4th order FCT to 2nd order) did not resolve the warming issue.
 * Switching to the MUSCL tracer advection scheme increased diffusion and worsened biases.
-* Changing the momentum advection scheme from vector form to UP3 had little impact on temperature, but UP3 introduces ?explicit diffusion? (has added bi-harmonic viscosity, capping velocities and truncating numerical errors). The group discussed whether UP3 should be adopted more widely, pending further validation and feedback from the NEMO systems team. 
+* Changing the momentum advection scheme from vector form to UP3 removes the timestep-dependence of RK3 with ORCA025. This is probably because UP3 includes an implicit biharmonic viscosity which caps the largest velocities and prevents the tracer advection scheme from getting close to its stability limit. The group discussed whether UP3 should be adopted more widely, pending further validation and feedback from the NEMO systems team.
 <br>
-
-[Dave commented that this has been pinned down to tracer advection - but that's not what the summary implies. Reword if necessary!]
 
 Validation and Further Experiments
 
