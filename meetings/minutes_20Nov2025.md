@@ -55,7 +55,7 @@ Mike Bell (MB),  Diego Bruciaferri (DB),  Richard Renshaw (RR), David Schroeder 
 
 <ul>
 
-DC presented his latest findings on NEMO-RK3.
+DC presented his latest findings on NEMO-RK3. (see [slides](meetings/slides/20251120_Timestep_dependence_update_JMMP_GO_dev_meeting.pdf))
 
 Response to increased time step
 
