@@ -84,7 +84,7 @@ Validation and Further Experiments
 
 <ul>
 
-EF presented the latest updates on sea ice model development for GOSI10. [(slides)] (https://github.com/JMMP-Group/GO_coordination/blob/main/meetings/slides/slides_JMMP_GOSI10_seaice_updates.pptx)
+EF presented the latest updates on sea ice model development for GOSI10. [(slides)](https://github.com/JMMP-Group/GO_coordination/blob/main/meetings/slides/slides_JMMP_GOSI10_seaice_updates.pptx)
 
 * Sea ice developments for the GOSI10.beta.5 release aim to improve effective sea ice model resolution and the representation of landfast ice.
 * An issue was identified and fixed regarding instability along the north fold when using the landfast ice scheme, related to the updating of non-halo grid points along the north fold as part of lbc_lnk calls.
