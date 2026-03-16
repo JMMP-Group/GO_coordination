@@ -29,7 +29,7 @@ Mike Bell (MB), Diego Bruciaferri (DB - minutes), Adam Blaker (AB), Richard Rens
 - [x] (All) Be proactive about transferring workflows to Monsoon3.
     * All GOSI9 ancil files are on Monsoon3 as well as two (ORCA1 and ORCA025) GOSI9 workflows (IA).
 * [ ] (AM) Share numerical mixing paper draft.
-    * Not shared yet, AA will try to share it on the Teams page.
+    * Not shared yet, AM will try to share it on the Teams page.
 * [x] (AA) Organise meeting to discuss ORCA1 GOSI10 release.
     * The meeting was organised, see minutes below.
 * [x] (All Met Office) Meet to discuss RK3.
