@@ -10,7 +10,7 @@ Ana Aguiar (AA - chair), Isabella Ascione (IA), Daley Calvert (DC), Emma Fiedler
 Mike Bell (MB), Diego Bruciaferri (DB - minutes), Adam Blaker (AB), Richard Renshaw (RR), David Schroeder (DSc), Matt Martin (MM), Davi Mignac (DM). 
 
 
-*The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, DC, EB, DB, <ins>EF</ins>, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
+*The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, DC, EB, <ins>DB</ins>, EF, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
 
 ----------
 
@@ -90,28 +90,28 @@ AM presented some results from his analysis on the impact of Smagorinsky viscosi
 EF presented the latest upgrades on the sea ice dynamics for GOSI10, which aim at improving sea ice model effective resolution and representation of landfast (immobile) ice (see [slides](https://github.com/JMMP-Group/GO_coordination/blob/main/meetings/slides/GOSI10_beta5_JMMP_05022026.pptx)). 
 
 * Update on supercooled ocean issues:
-  Latent heat from icebergs was driving down SST below freezing point, resulting in basal ice growth. CG and DC made the changes to implent in GOSI10 a recent fix went in NEMO for this issue (further changes required for the fix in coupled model). This fix also changes how the iceberg flux is distributed.
-* Sea ice developments - results:
-  a. Sea ice thickness: increase in number and definition of sea ice features; sea ice is thinner overall compared to GOSI10.beta.4.
-  b. Sea ice rehology: improved definition of sea ice fracture patterns for R75 strength, aEVP gives the largest improvements.
-  c. Sea ice strength: increased where there is landfast ice. R75 strength is lower than H79 in autumn, spring and summer much closer in magnitude.
-  d. SIC ab drift speed: differences wrt control are mainly along sea ice edge.
-  e. Landfast ice: very qualitative assessment seems to show improvements in comparison to GOSI10.beta.4.
-  f. Validation notes for ice: improvements in the right direction to compare better with obs.
+  Latent heat from icebergs was driving down SST below freezing point, resulting in basal ice growth. CG and DC made the changes to implement in GOSI10 a recent fix from NEMO for this issue (further changes required for the fix in coupled model). This fix also changes how the iceberg flux is distributed.
+* Sea ice developments - results:  
+  a. Sea ice thickness: increase in number and definition of sea ice features; sea ice is thinner overall compared to GOSI10.beta.4.  
+  b. Sea ice rheology: improved definition of sea ice fracture patterns for R75 strength and aEVP, with largest improvement from aEVP.  
+  c. Sea ice strength: increased where there is landfast ice. R75 strength is lower than H79 in autumn, spring and summer much closer in magnitude.  
+  d. Sea ice concentration and drift speed: differences wrt control are mainly along sea ice edge.  
+  e. Landfast ice: very qualitative assessment shows improvements in comparison to GOSI10.beta.4.  
+  f. Validation notes for ice: little change in seasonal cycle of ice extent compared to GOSI10.beta.4 and small reduction in sea ice volume (towards reference).  
   d. Validation notes for oce: TBD  
-* Still to do for GOSI10.beta.5 release:
-  a. Validation notes for oce
-  b. Impact of ICB fix on long runs -> testing switchin off basal ice growth cap in 65 years long runs:
-     * ICB fix + basal growth cap
-     * ICB fix + no basal growth cap
-* Planned sea ice devs fpr GOSI11:
-  a. from NEMO5 physics: ocean-ioce form drag and improved brine drainage and flushing param.
-  b. increase num of model snow and ice layers;
-  c. Reduce max southern hemisphere sea ice frac -> improves the ocean
-  d. interactions melt-ponds/ridging
+* Still to do for GOSI10.beta.5 release:  
+  a. Validation notes for oce  
+  b. Impact of ICB fix on long runs -> testing switching off basal ice growth cap in 65 years long runs:  
+     * ICB fix + basal growth cap  
+     * ICB fix + no basal growth cap  
+* Planned sea ice devs for further GOSI10 beta release:  
+  a. from NEMO5 physics: ocean-ice form drag and improved brine drainage and flushing param.  
+  b. increase num of model snow and ice layers;  
+  c. reduce max southern hemisphere sea ice frac -> improves the ocean  
+  d. interactions melt-ponds/ridging  
 * GOSI10.beta.5 planned for Feb (if everything goes as expected).
-* AA asked what would be the imapct of these changes on GC5; EF said it has to been seen, but she is confident we have quite a lot of flexibility for further tuning so she is not too much worried.
-* SK reports ECMWF previous experience with early version of aEVP, saying that the model was unstable. EF replies that she doesn't think the code of aEVP has been updated, but all the other changes to the model code have made the aEVP's issues of the past to disappear.
+* AA asked what would be the impact of these changes on GC6; EF said it has to been seen, but she is confident we have quite a lot of flexibility for further tuning so she is not too much worried.
+* SK reports ECMWF previous experience with early version of aEVP, saying that the model was unstable. EF replies that the code of aEVP has not been updated, but all the other changes to the model code have made the aEVP's issues of the past to disappear.
 
 <br>
 
