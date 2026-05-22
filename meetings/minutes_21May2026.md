@@ -8,19 +8,22 @@ Ana Aguiar (AA - chair), Isabella Ascione (IA), Daley Calvert (DC), Diego Brucia
 
 *Apologies:* 
 
-Emma Fiedler (EF), Ed Blockley (EB), Mike Bell (MB), Sarah Keeley (SK), Kristian Mogensen (KM), Charles Pelletier (CP).
+Emma Fiedler (EF), Ed Blockley (EB), Mike Bell (MB), Sarah Keeley (SK), Kristian Mogensen (KM), Charles Pelletier (CP), David Schroeder (DSc), Matt Martin (MM), Davi Mignac (DM), Daniel Lea (DL).
 
 
-*The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, DC, EB, <ins>DB</ins>, EF, CG, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
+*The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, DC, DB, EF, <ins>CG</ins>, EB, AM, DSc, DS, OT, AW. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
 
 ----------
 
 ## Actions from last meeting:
 
 We did not discuss actions from the last meeting, although I can see that they have been acted on.
- - [x] (EF) Update on sea ice developments. * GOSI10.beta.5 including the sea ice development has been released and results have been shared at developer meetings
- - [x] (AW) Update on rivers updates. * It has been agreed that AW will share her progress with CG and handover her work on rivers. Meeting planned on 21/05/26
- - [x] (All) Update on GOSI10.beta.6. * AA presented the latest results with GOSI10.beta.6 see discussion below.
+ - [x] (EF) Update on sea ice developments. _Closed_
+    - GOSI10.beta.5 including the sea ice development has been released and results have been shared at developer meetings
+ - [x] (AW) Update on rivers updates. _Closed_
+   - It has been agreed that AW will share her progress with CG and handover her work on rivers. Meeting planned on 21/05/26
+ - [x] (All) Update on GOSI10.beta.6. _Closed_
+   - AA presented the latest results with GOSI10.beta.6 see discussion below.
  - [ ] (All speakers) Upload slides to the meeting minutes.
 
 ----------
@@ -32,7 +35,7 @@ We did not discuss actions from the last meeting, although I can see that they h
 <ul>
 
 DS has recently realised that there was a bug in the eddy viscosity coefficients used for eORCA1. The coefficients currently used for GOSI10 are inherited from GOSI9.
-2 coefficients are required for the rotational and irrotational parts, there should be a reduction of these coefficients with high latitudes and near the equator.
+2 coefficients are required for the rotational and irrotational parts, there should be a reduction of these coefficients with high latitudes and near the equator. See https://github.com/JMMP-Group/GO_coordination/issues/19.
 <br>
 
 Issues with current files:
@@ -94,9 +97,9 @@ Current feedback (Renault et al): should be reviewed once OMIP has agreed on the
 
 ## Actions:
 
-  * (AB)  to check eddy viscosity files and share with DS.
-  * (DS)  to test corrected eddy viscosity files (provided by AB) with the acceleration spin-up. 
-  * (DC)  to cherry pick NEMO5.0.2 bug fixes into GOSI10 branch for GOSI10.beta.6 release
-  * (CG)  to discuss rivers and iceberg with EF
-  * (DC/AA) to share RK3/MLF results with Sybille
+  * (AB)  Check eddy viscosity files and share with DS.
+  * (DS)  Test corrected eddy viscosity files (provided by AB) with the acceleration spin-up. 
+  * (DC)  Cherry pick NEMO5.0.2 bug fixes into GOSI10 branch for GOSI10.beta.6 release.
+  * (CG)  Discuss rivers and iceberg with EF.
+  * (DC/AA) Share RK3/MLF results with Sybille.
   
