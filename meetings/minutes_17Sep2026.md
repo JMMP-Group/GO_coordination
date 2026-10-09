@@ -13,8 +13,6 @@ Ed Blockley (EB), David Schroeder (DSc), Davi Mignac (DM), Daniel Lea (DL), Dave
 
 *The rota for minuting follows JMMP people surname in alphabetical order: IA, AB, DC, DB, EF, CG, AM, <ins>EB</ins>, DSc, DS, OT. (This was listed in the minutes of Nov 2024).  We only minute the quarterly meetings, not the monthly ones.*
 
-----------
-
 ## Actions from last meeting:
 
   * (AB)  Check eddy viscosity files and share with DS. _Carry forward_
@@ -22,8 +20,6 @@ Ed Blockley (EB), David Schroeder (DSc), Davi Mignac (DM), Daniel Lea (DL), Dave
   * (DC)  Cherry pick NEMO5.0.2 bug fixes into GOSI10 branch for GOSI10.beta.6 release. _Closed_
   * (CG)  Discuss rivers and iceberg with EF. _Closed_
   * (DC/AA) Share RK3/MLF results with Sybille. _Closed_
-
-----------
 
 ## Agenda:
 - Sea-ice dynamics updates in GOSI10.beta.5 and beta.6 and their unexpectedly large impact on AMOC.
@@ -121,8 +117,6 @@ Findings
 Recommendation 
 More testing is needed before any operational adoption.  
 Continue investigating runoff spreading parameters and stability before considering inclusion in a future release. 
-
-----------
  
 ## Actions 
 - Investigate GIN Seas salinity source and AMOC trigger mechanism.  (Met Office)
