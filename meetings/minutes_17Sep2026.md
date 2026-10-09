@@ -34,7 +34,7 @@ Ed Blockley (EB), David Schroeder (DSc), Davi Mignac (DM), Daniel Lea (DL), Dave
 
 ## Minutes:
 
-#### Sea-Ice Dynamics Updates and AMOC Response (EF and CG) 
+#### Sea-Ice Dynamics Updates and AMOC Response (EF and CG), see [issue#41](https://github.com/JMMP-Group/GO_coordination/issues/41) 
 
 The GOSI10.beta.5 sea-ice updates included: 
 - Rothrock ice-strength scheme replacing the Hibler scheme. 
@@ -64,7 +64,7 @@ Agreed Next Steps:
 Release Decision:
 The group agreed to proceed with the beta.6 release because no fundamental scientific error had been identified in the sea-ice updates.  
 
-#### Closed Seas and Bathymetry Updates (KM, MC)
+#### Closed Seas and Bathymetry Updates (KM, MC), see [issue#48](https://github.com/JMMP-Group/GO_coordination/issues/48)
 
 ORCA12 simulations experienced instabilities associated with: 
 - Caspian Sea bathymetry. 
@@ -83,7 +83,7 @@ Outcomes
 - The Met Office team plans to incorporate improved bathymetry into future GOSI10 developments. Dave Storkey will patch the bathymetry soon.
 - AB suggested that Corrections may eventually be reported back to GEBCO.  
 
-#### ORCA12 Experiments (IA) 
+#### ORCA12 Experiments (IA)
 
 Testing: 
 - Modified Leapfrog (MLF). 
@@ -106,7 +106,7 @@ Preliminary Conclusions
    - MLF (~7.5 min timestep): ~35 min/month simulation. 
    - RK3 (10 min timestep): ~24 min/month simulation.  
 
-#### River Runoff Forcing (JRA55) (CG)
+#### River Runoff Forcing (JRA55) (CG), see [issue#47](https://github.com/JMMP-Group/GO_coordination/issues/47)
 
 CG tested replacing existing climatological runoff fields with JRA55-derived runoff forcing. See relevant issue for detailed findings.
 
