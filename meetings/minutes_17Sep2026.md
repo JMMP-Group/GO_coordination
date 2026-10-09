@@ -64,7 +64,7 @@ Agreed Next Steps:
 Release Decision:
 The group agreed to proceed with the beta.6 release because no fundamental scientific error had been identified in the sea-ice updates.  
 
-#### Closed Seas and Bathymetry Updates (CG, KM, MC)
+#### Closed Seas and Bathymetry Updates (KM, MC)
 
 ORCA12 simulations experienced instabilities associated with: 
 - Caspian Sea bathymetry. 
