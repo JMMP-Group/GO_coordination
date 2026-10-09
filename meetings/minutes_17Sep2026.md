@@ -17,8 +17,8 @@ Ed Blockley (EB), David Schroeder (DSc), Davi Mignac (DM), Daniel Lea (DL), Dave
 
 ## Actions from last meeting:
 
-  * (AB)  Check eddy viscosity files and share with DS.
-  * (DS)  Test corrected eddy viscosity files (provided by AB) with the acceleration spin-up. 
+  * (AB)  Check eddy viscosity files and share with DS. _Carry forward_
+  * (DS)  Test corrected eddy viscosity files (provided by AB) with the acceleration spin-up. _Carry forward_
   * (DC)  Cherry pick NEMO5.0.2 bug fixes into GOSI10 branch for GOSI10.beta.6 release. _Closed_
   * (CG)  Discuss rivers and iceberg with EF. _Closed_
   * (DC/AA) Share RK3/MLF results with Sybille. _Closed_
